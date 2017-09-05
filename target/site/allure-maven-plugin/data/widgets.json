@@ -1,0 +1,79 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 18,
+        "passed" : 12,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 6,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1504570247786,
+        "stop" : 1504570622568,
+        "duration" : 374782
+      }
+    },
+    "defects" : {
+      "totalCount" : 5,
+      "items" : [ {
+        "count" : 2,
+        "uid" : "8e083673f4ceb3dd",
+        "message" : "AssertionError: \nExpected: <25.0>\n     but: was <125.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "1ee453e285b3cdc0",
+        "message" : "AssertionError: \nExpected: <4.0>\n     but: was <6.25>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "a0cb12a03f6bb5d1",
+        "message" : "AssertionError: \nExpected: <15.0>\n     but: was <10.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "b5d3e73f2ec15f44",
+        "message" : "AssertionError: \nExpected: <45.0>\n     but: was <400.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "c9f8bbb494a35f71",
+        "message" : "AssertionError: \nExpected: <10000.0>\n     but: was <1.0E8>",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "8f5c60eba7720018",
+        "title" : "Surefire suite : Surefire test",
+        "statistic" : {
+          "total" : 18,
+          "passed" : 12,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 6,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 18,
+          "passed" : 12,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 6,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

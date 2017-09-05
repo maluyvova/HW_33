@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: core.AddTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.979 s <<< FAILURE! - in core.AddTest
+add_test_equalTo(core.AddTest)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <15.0>
+     but: was <10.0>
+	at core.AddTest.add_test_equalTo(AddTest.java:12)
+

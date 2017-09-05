@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: core.SubtractTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.544 s <<< FAILURE! - in core.SubtractTest
+substractTestc(core.SubtractTest)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <45.0>
+     but: was <400.0>
+	at core.SubtractTest.substractTestc(SubtractTest.java:20)
+
